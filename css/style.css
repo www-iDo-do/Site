@@ -1,0 +1,62 @@
+body{
+    color: #eee !important;
+}
+
+.join-bg{
+    background: url(../img/cooperativismo1.png);
+}
+
+header.masthead{
+    background-image: url(../img/header.png) !important;
+}
+
+header.masthead::before{
+    background: rgba(95,40,173,0.77);
+    content: "";
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+hr{
+    border-color: #a28fef !important;
+}
+
+#mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
+    color: #5f28ad !important;
+}
+
+mainNav.navbar-shrink .navbar-brand {
+    color: #222 !important;
+}
+
+#mainNav.navbar-shrink .navbar-brand {
+    color:#222 !important;
+}
+#mainNav.navbar-shrink .navbar-brand:focus,#mainNav.navbar-shrink .navbar-brand:hover {
+    color:#5f28ad !important;
+}
+#mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link,#mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:focus {
+    color:#212529
+}
+#mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:focus:hover,#mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:hover {
+    color:#5f28ad !important;
+}
+
+#mainNav .navbar-nav>li.nav-item>a.nav-link:focus:hover,#mainNav .navbar-nav>li.nav-item>a.nav-link:hover {
+    color:#5f28ad
+}
+
+#mainNav .navbar-nav>li.nav-item>a.nav-link.active,#mainNav .navbar-nav>li.nav-item>a.nav-link:focus.active {
+    color:#5f28ad!important;
+    background-color:transparent
+}
+
+#mainNav .navbar-brand{
+    text-transform: none !important;
+}
+.pl a, .pl a:hover{
+    color: #eee;
+}
