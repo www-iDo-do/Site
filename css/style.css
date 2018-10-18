@@ -6,10 +6,6 @@ body{
     background: url(../img/cooperativismo1.png);
 }
 
-header.masthead{
-    background-image: url(../img/header.png) !important;
-}
-
 header.masthead::before{
     background: rgba(95,40,173,0.77);
     content: "";
